@@ -7,7 +7,8 @@ import { signOut, useSession } from 'next-auth/react';
 import 'react-toastify/dist/ReactToastify.css';
 import { Menu } from '@headlessui/react';
 import Cookies from 'js-cookie';
-import DropdownLink from './DropdownLink';
+import DropdownLink from './Dropdown';
+// import DropdownLink from './Dropdown';
 
 export default function Layout({ title, children }) {
   const { status, data: session } = useSession();
