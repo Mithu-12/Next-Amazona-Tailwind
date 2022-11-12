@@ -37,7 +37,7 @@ function OrderHistory() {
     fetchOrders();
   }, []);
   return (
-    <Layout>
+    <Layout title="order-history">
       <h1>Order History</h1>
       {loading ? (
         <div className="">Loading...</div>
