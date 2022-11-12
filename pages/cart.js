@@ -2,12 +2,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useContext } from 'react';
 import { XCircleIcon } from '@heroicons/react/24/solid';
-import Layout from '../components/Layout';
+
 import { Store } from '../utils/Store';
 import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic';
 import axios from 'axios';
 import { toast } from 'react-toastify';
+import Layout from '../Components/Layout';
 
 function CartScreen() {
   const router = useRouter();

@@ -3,7 +3,8 @@ import { useRouter } from 'next/router';
 import React, { useContext, useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 import CheckoutWizard from '../Components/CheckoutWizard';
-import Layout from '../Components/Layout';
+import Layout from '../components/Layout';
+
 import { Store } from '../utils/Store';
 
 export default function Payment() {
