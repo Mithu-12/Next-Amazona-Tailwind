@@ -7,7 +7,7 @@ import { getError } from '../utils/error';
 import { toast } from 'react-toastify';
 import { useRouter } from 'next/router';
 import axios from 'axios';
-import Layout from '../components/Layout';
+import Layout from '../Components/layout';
 
 export default function LoginScreen() {
   const { data: session } = useSession();

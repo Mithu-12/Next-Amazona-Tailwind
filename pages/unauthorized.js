@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import React from 'react';
-import Layout from '../components/Layout';
+import Layout from '../Components/layout';
 
 export default function Unauthorize() {
   const router = useRouter();

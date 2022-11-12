@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import React, { useContext, useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 import CheckoutWizard from '../Components/CheckoutWizard';
-import Layout from '../components/Layout';
+import Layout from '../Components/layout';
 
 import { Store } from '../utils/Store';
 

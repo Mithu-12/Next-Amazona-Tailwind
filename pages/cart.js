@@ -8,7 +8,7 @@ import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic';
 import axios from 'axios';
 import { toast } from 'react-toastify';
-import Layout from '../Components/Layout';
+import Layout from '../Components/layout';
 
 function CartScreen() {
   const router = useRouter();

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useContext } from 'react';
 import { toast } from 'react-toastify';
-import Layout from '../../components/Layout';
+import Layout from '../../Components/layout';
 
 import Product from '../../models/Product';
 import db from '../../utils/db';
