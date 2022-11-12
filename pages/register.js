@@ -54,7 +54,7 @@ export default function LoginScreen() {
       >
         <h1 className="mb-4 text-xl">Create Account</h1>
         <div className="mb-4">
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Name &quot;</label>
           <input
             type="text"
             className="w-full"
